@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # mini-challenges-html
 
 ## Mini Challenge: Buat Halaman Profil HTML Sederhana 💡
@@ -33,3 +34,6 @@ Buatlah struktur HTML lengkap (termasuk DOCTYPE, html, head, dan body) yang meng
 **Good luck!** 🎉 Ini adalah latihan yang bagus untuk mengonsolidasikan semua konsep HTML dasar yang sudah kita bahas.
 
 That’s all for HTML intro, let’s keep our learning spirit, cheers!
+=======
+
+>>>>>>> 79d366901d819d0610a344f388181c596fb2a24b
