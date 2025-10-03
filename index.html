@@ -1,0 +1,103 @@
+><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mini Challenge Learn how to create a responsive web page using HTML."
+    />
+    <title>Mini Challenge</title>
+  </head>
+  <body>
+    <!-- judul dan konten utama  -->
+    <header>
+      <h1>PROFIL SAYA</h1>
+    </header>
+
+    <main>
+      <!-- section judul dan konten utama -->
+      <section id="Tentang Saya">
+        <h2>Profil Singkat</h2>
+        <p>
+          Halo saya Feny, seorang <strong> Desainer Interior</strong> yang
+          berfokus pada menciptakan ruang yang fungsional dan estetis. Saya
+          memiliki pengalaman dalam penanganan proyek rumah, kantor dan perabot
+          yang detail dan kreatif
+        </p>
+      </section>
+
+      <!-- section media dan tautan -->
+      <section>
+        <img src="assets/my photo.jpg" alt="Foto Feny" width="200" />
+
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/vdeinterior?igsh=MWR1b2ZjMHlybWhmag=="
+              target="blank"
+              >Vde Interior</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/fenysanny?igsh=NHluZnM3bWdid3Vy"
+              target="blank"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <!-- section Tabel Keahlian -->
+      <section>
+        <table>
+          <tr>
+            <th>Keahlian</th>
+            <th>Tingkat</th>
+          </tr>
+          <tr>
+            <td>Autocad</td>
+            <td>Lulus</td>
+          </tr>
+          <tr>
+            <td>3dMax</td>
+            <td>Lulus</td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- section Formulir kontak mini -->
+      <section>
+        <h2>Kontak</h2>
+        <form action="/submit" method="post">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <input type="submit" value="Submit" />
+
+          <br />
+
+          <label for="Tujuan Kontak">Pilih Pertanyaan:</label>
+          <select id="Pertanyaan" name="Pertanyaan">
+            <option value="Pertanyaan Umum">Pertanyaan Umum</option>
+
+            <option value="Kerja Sama">Kerja Sama</option>
+
+            <option value="Umpan Balik" selected>Umpan Balik</option>
+
+            <input type="submit" value="Submit" />
+          </select>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Web Page</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
